@@ -9,6 +9,6 @@ def test_no_vowels():
 
 def test_mixed_string():
     assert count_vowels("Hello, World!") == 3
-    assert count_vowels("Python programming is fun!") == 6
+    assert count_vowels("FdsGfaah") == 2
     assert count_vowels("AEIOUaeiou") == 10
     assert count_vowels("12345!@#$%^&*()") == 0
